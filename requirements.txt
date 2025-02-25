@@ -5,3 +5,5 @@ Pillow
 python-dotenv
 requests
 PyPDF2
+beautifulsoup4
+lxml
