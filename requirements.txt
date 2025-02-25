@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+protobuf
+Pillow
+python-dotenv
+requests
+PyPDF2
