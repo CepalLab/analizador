@@ -45,7 +45,7 @@ def configure_genai():
     try:
         api_key = st.secrets["GEMMINI_API_KEY"]
         genai.configure(api_key=api_key)
-        return genai.GenerativeModel("gemini-2.0-flash")
+        return genai.GenerativeModel("gemini-2.0-flash-001")
     except Exception as e:
         st.error(f"Error al configurar la API: {str(e)}")
         return None
@@ -116,3 +116,4 @@ if analyze_button and url and prompt:
         
 elif analyze_button:
     st.warning("Por favor, introduce una URL y una pregunta.")
+
